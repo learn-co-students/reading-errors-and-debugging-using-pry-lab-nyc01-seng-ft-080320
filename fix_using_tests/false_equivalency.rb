@@ -12,11 +12,12 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
+
 def selection(num)
-  if num = 1
-    puts "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-    puts "HAM HAM HAM IN MY TUMMY"
+  if num == 1
+    p "YUM YUM MUNCH MUNCH MUNCH"
+  elsif num == 2
+    p "HAM HAM HAM IN MY TUMMY"
   end
 end
 
